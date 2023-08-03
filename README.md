@@ -1,1 +1,1 @@
-# kaeklud.github.io/code-skeleton/
+# kaeklud.github.io
