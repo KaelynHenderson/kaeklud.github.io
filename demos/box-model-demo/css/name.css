@@ -1,0 +1,18 @@
+div {
+    border: 10px dashed orange;
+    /*  border-top: 5px dashed red; */
+    margin: 24px 0px;
+    /*  margin: 50px 10px; top/bottom
+        margin: 10px 100px 40px; top, left/right, bottom
+        margin: 25px 00px 5px 10px; top, right, bottom, left */
+    padding: 25px 36px;
+    /*  same value scales as margin */
+    background-color: lavender;
+}
+
+p {
+    background-color: cornflowerblue;
+    margin: 60px;
+    padding: 100px 25px;
+    border: 20px solid coral
+}
