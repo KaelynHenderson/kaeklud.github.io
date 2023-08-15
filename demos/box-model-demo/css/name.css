@@ -14,5 +14,6 @@ p {
     background-color: cornflowerblue;
     margin: 60px;
     padding: 100px 25px;
-    border: 20px solid coral
+    border: 20px solid coral;
+    border-radius: 20px;
 }
