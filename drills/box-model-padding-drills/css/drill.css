@@ -14,7 +14,18 @@
 }
 
 /* Drill 4 - Write your code solution below */
-
+#d4-div-1 {
+    padding: 20px
+}
+#d4-div-2 {
+    padding: 5px 20px 20px
+}
 
 /* Drill 5 - Write your code solution below */
-
+#d5-container-1 {
+    text-align: center;
+    padding: 30px;
+}
+#d5-s-1, #d5-s-2, #d5-s-3 {
+    padding: 30px
+}
