@@ -1,31 +1,31 @@
 /* Drill 1 - Write your code solution below */
 .d1-container {
-    padding: 36px
+    padding: 36px;
 }
 
 /* Drill 2 - Write your code solution below */
 .d2-container {
-    padding: 48px 24px
+    padding: 48px 24px;
 }
     /*I know now that we have to target the child*/
 /* Drill 3 - Write your code solution below */
 #d3-div-2 {
-    padding: 30px 48px
+    padding: 30px 48px;
 }
 
 /* Drill 4 - Write your code solution below */
 #d4-div-1 {
-    padding: 20px
+    padding: 25px;
 }
 #d4-div-2 {
-    padding: 5px 20px 20px
+    padding: 0px 25px 25px;
 }
 
 /* Drill 5 - Write your code solution below */
-#d5-container-1 {
-    text-align: center;
+.d5-container {
     padding: 30px;
+    text-align: center;
 }
-#d5-s-1, #d5-s-2, #d5-s-3 {
-    padding: 30px
+.d5-s {
+    padding: 24px
 }
