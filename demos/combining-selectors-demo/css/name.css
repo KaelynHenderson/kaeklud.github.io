@@ -1,0 +1,44 @@
+#navbar {
+    text-align: center;
+    padding: 24px;
+    background-color: blue;
+}
+
+#navbar a {
+    color: white;
+}
+/* targetting child within #navbar */
+
+p a {
+    color: orange;
+}
+/* anchors within paragraphs */
+
+p.warning {
+    color: crimson;
+}
+/* taget parapraph elements with a class of warning */
+
+p.warning a {
+    color: greenyellow
+}
+/* target anchor elements inside of paragraph elements, with a class of warning */
+
+ul {
+    color: green;
+}
+
+ul a {
+    color: lime;
+}
+/* anchors within ul */
+
+ul p a {
+    color: pink;
+}
+/* anchors within paragraphs within ul */
+
+ul div a {
+    color:deepskyblue
+}
+/* anchors within divs within ul*/
