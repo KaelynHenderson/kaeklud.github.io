@@ -1,0 +1,59 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.poster-1 {
+    margin: 100px 12px 0px;
+    box-shadow: -3px 2px 2px rgb(85, 27, 27);
+    transform: rotate(5deg);
+}
+
+.poster-1 div {
+    background-color: beige;
+    border: 10px;
+    box-shadow: inset 0px 0px 4px rgb(85, 27, 27);
+    padding: 1px;
+}
+
+.poster-1 img {
+    width: 80px;
+}
+
+.poster-2 {
+    border: 2px solid black;
+    margin: 70px 12px 0px;
+    box-shadow: -3px 2px 2px rgb(85, 27, 27);
+    transform: rotate(-1deg);
+}
+
+.poster-2 div {
+    background-color: beige;
+    border: 0px;
+    box-shadow: inset 0px 0px 4px rgb(85, 27, 27);
+    padding: 5px;
+}
+
+.poster-2 img {
+    width: 80px;
+}
+
+.poster-3 {
+    margin: 130px 1px 1px;
+    box-shadow: -3px 2px 2px rgb(85, 27, 27);
+    transform: rotate(-6deg);
+}
+
+.poster-3 div {
+    background-color: beige;
+    border: 10px;
+    box-shadow: inset 0px 0px 4px rgb(85, 27, 27);
+    padding: 1px;
+}
+
+.poster-3 img {
+    width: 80px;
+}
