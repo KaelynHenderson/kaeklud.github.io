@@ -28,6 +28,7 @@ h4 {
 /* LEFT SIDE INFO */
 #left-side {
     border: 3px solid black;
+    display: inline-block;
 }
 
 #id-and-expiration {
@@ -79,7 +80,6 @@ h4 {
 }
 
 #right-side {
-    border: 3px solid black;
     display: inline-block;
 }
 
@@ -89,13 +89,17 @@ h4 {
 }
 #donor-and-real-id {
     border: 1px dashed red;
+    text-align: center;
 }
 #donor {
     border: 1px solid blue;
+    display: inline-block;
 }
 #real-id {
     border: 1px solid blue;
+    display: inline-block;
 }
+
 
 
 
