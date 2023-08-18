@@ -1,0 +1,93 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    border: 4px solid brown;
+    border-radius: 5%;
+}
+
+h1 {
+    border: 1px solid transparent;
+    color: darkblue;
+    text-align: left;
+}
+
+h4 {
+    border: 1px solid transparent;
+    color: white;
+    text-align: center;
+    background-color: darkblue
+}
+#left-side {
+    border: 3px solid black;
+}
+
+#id-and-expiration {
+    border: 1px solid transparent;
+    display: inline-block;
+    color: darkblue
+}
+#id-and-expiration div {
+    border: 1px dashed transparent;
+    display: inline-block;
+}
+#id-and-expiration span {
+    color: red;
+}
+
+
+#address {
+    border: 1px solid transparent;
+    font-weight: bold;
+    text-align: left;
+}
+
+#personal-info {
+    border: 5px solid black;
+}
+#small-pic {
+    border: 2px dashed red;
+}
+#data-fields {
+    border: 1px dashed red;
+}
+#data-left {
+    border: 1px solid blue;
+}
+#data-left div {
+    border: 1px solid black;
+}
+#data-right {
+    border: 1px solid blue;
+}
+#data-right div {
+    border: 1px solid black;
+}
+#signature {
+    border: 1px dashed red;
+}
+
+#right-side {
+    border: 3px solid black;
+}
+
+#right-side img {
+    border: 2px dashed red;
+}
+#donor-and-real-id {
+    border: 1px dashed red;
+}
+#donor {
+    border: 1px solid blue;
+}
+#real-id {
+    border: 1px solid blue;
+}
+
+
+
