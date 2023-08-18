@@ -9,20 +9,23 @@
 #license {
     border: 4px solid brown;
     border-radius: 5%;
-}
+    background-color: rgb(255, 211, 149);
 
+}
+/* FLORIDA */
 h1 {
     border: 1px solid transparent;
     color: darkblue;
     text-align: left;
 }
-
+/* DRIVER LICENSE */
 h4 {
     border: 1px solid transparent;
     color: white;
     text-align: center;
-    background-color: darkblue
+    background-color: darkblue;
 }
+/* LEFT SIDE INFO */
 #left-side {
     border: 3px solid black;
 }
@@ -39,15 +42,12 @@ h4 {
 #id-and-expiration span {
     color: red;
 }
-
-
 #address {
     border: 1px solid transparent;
     font-weight: bold;
     text-align: left;
 }
-
-/* image, personal stats, signature*/
+/* TINY IMAGE, STATS, SIGNATURE*/
 #personal-info {
     border: 5px solid black;
 }
@@ -80,10 +80,12 @@ h4 {
 
 #right-side {
     border: 3px solid black;
+    display: inline-block;
 }
 
 #right-side img {
     border: 2px dashed red;
+    display: inline-block;
 }
 #donor-and-real-id {
     border: 1px dashed red;
@@ -94,6 +96,9 @@ h4 {
 #real-id {
     border: 1px solid blue;
 }
+
+
+
 
 
 
