@@ -6,39 +6,32 @@
 
     Good luck, and have fun!
 */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Poppins:wght@100;200&family=Sacramento&display=swap');
+
 #license {
     border: 4px solid brown;
     border-radius: 5%;
     background-color: rgb(255, 211, 149);
-
+    padding: 10px;
 }
-/* FLORIDA */
 h1 {
-    border: 1px solid transparent;
     color: darkblue;
-    text-align: left;
 }
-/* DRIVER LICENSE */
 h4 {
-    border: 1px solid transparent;
     color: white;
     text-align: center;
     background-color: darkblue;
 }
-/* LEFT SIDE INFO */
 #left-side {
-    border: 3px solid black;
     display: inline-block;
 }
-
 #id-and-expiration {
-    border: 1px solid transparent;
     display: inline-block;
     color: darkblue
 }
 #id-and-expiration div {
-    border: 1px dashed transparent;
     display: inline-block;
+    padding-bottom: 10px;
 }
 #id-and-expiration span {
     color: red;
@@ -48,56 +41,46 @@ h4 {
     font-weight: bold;
     text-align: left;
 }
-/* TINY IMAGE, STATS, SIGNATURE*/
-#personal-info {
-    border: 5px solid black;
+#right-side img{
+    width: 150px
 }
 #small-pic img {
     border: 2px dashed transparent;
     opacity: 50%;
     width: 60px;
-}
-#data-fields {
-    border: 1px dashed red;
+    display: flex;
 }
 #data-left {
-    border: 1px solid blue;
     display: inline-block;
-}
-#data-left div {
-    border: 1px solid black;
 }
 #data-right {
-    border: 1px solid blue;
     display: inline-block;
 }
-#data-right div {
-    border: 1px solid black;
-}
 #signature {
-    border: 1px dashed red;
     text-align: center;
 }
-
 #right-side {
     display: inline-block;
 }
-
 #right-side img {
-    border: 2px dashed red;
     display: inline-block;
 }
 #donor-and-real-id {
-    border: 1px dashed red;
     text-align: center;
 }
 #donor {
-    border: 1px solid blue;
     display: inline-block;
+    color: red
 }
 #real-id {
-    border: 1px solid blue;
     display: inline-block;
+}
+#small-pic, #data-fields {
+    display: inline-block;
+}
+#signature {
+    padding: 5px;
+    font-family: 'Sacramento', cursive;
 }
 
 
