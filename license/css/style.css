@@ -47,29 +47,35 @@ h4 {
     text-align: left;
 }
 
+/* image, personal stats, signature*/
 #personal-info {
     border: 5px solid black;
 }
-#small-pic {
-    border: 2px dashed red;
+#small-pic img {
+    border: 2px dashed transparent;
+    opacity: 50%;
+    width: 60px;
 }
 #data-fields {
     border: 1px dashed red;
 }
 #data-left {
     border: 1px solid blue;
+    display: inline-block;
 }
 #data-left div {
     border: 1px solid black;
 }
 #data-right {
     border: 1px solid blue;
+    display: inline-block;
 }
 #data-right div {
     border: 1px solid black;
 }
 #signature {
     border: 1px dashed red;
+    text-align: center;
 }
 
 #right-side {
