@@ -7,6 +7,8 @@
     Good luck, and have fun!
 */
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Poppins:wght@100;200&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@400;700&display=swap');
+
 
 #license {
     border: 4px solid brown;
@@ -16,11 +18,13 @@
 }
 h1 {
     color: darkblue;
+    margin: 2%;
 }
 h4 {
     color: white;
     text-align: center;
     background-color: darkblue;
+    margin: 2%;
 }
 #left-side {
     display: inline-block;
@@ -40,6 +44,8 @@ h4 {
     border: 1px solid transparent;
     font-weight: bold;
     text-align: left;
+    font-family: 'REM', sans-serif;
+    padding-bottom: 10px;
 }
 #right-side img{
     width: 150px
@@ -58,6 +64,7 @@ h4 {
 }
 #signature {
     text-align: center;
+    font-size: 15px;
 }
 #right-side {
     display: inline-block;
@@ -82,7 +89,12 @@ h4 {
     padding: 5px;
     font-family: 'Sacramento', cursive;
 }
-
+#data-fields {
+    font-size: small;
+}
+#data-left {
+    padding-right: 30px;
+}
 
 
 
