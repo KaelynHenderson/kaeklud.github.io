@@ -36,3 +36,68 @@ body {
     background-color: #e6f4fd;
     padding: 40px;
 }
+
+.main-content h1 {
+    padding-bottom: 20px;
+}
+
+#description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#description h3 {
+    text-decoration: underline;
+}
+#description p {
+    padding-top: 10px;
+}
+#taxonomy {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#taxonomy h3 {
+    text-decoration: underline;
+}
+#taxonomy p {
+    padding-top: 10px;
+}
+#behavior {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#behavior h3 {
+    text-decoration: underline;
+}
+#behavior p {
+    padding-top: 10px;
+}
+#habitat {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#habitat h3 {
+    text-decoration: underline;
+}
+#habitat p {
+    padding-top: 10px;
+}
+#diet {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#diet h3 {
+    text-decoration: underline;
+}
+#diet p {
+    padding-top: 10px;
+}
+#reproduction {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#reproduction h3 {
+    text-decoration: underline;
+}
+#reproduction p {
+    padding-top: 10px;
+}
