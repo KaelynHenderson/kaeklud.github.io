@@ -6,3 +6,7 @@ img {
     display: flex;
     flex-direction: row-reverse;
 }
+/*
+    Row and row-reverse have a main-axis of horizontal / x-axis and a cross-axis of vertical / y-axis
+    Column and column-reverse have a main-axis of vertical / y-axis and a cross-axis of horizontal / x-axis
+*/
