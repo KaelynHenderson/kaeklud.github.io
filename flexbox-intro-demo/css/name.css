@@ -1,12 +1,29 @@
-img {
-    max-width: 500px;
+img, p {
+    max-width: 300px;
+    border: 2px solid blue;
 }
 
 .section1 {
+    border: 2px solid red;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
 }
 /*
     Row and row-reverse have a main-axis of horizontal / x-axis and a cross-axis of vertical / y-axis
     Column and column-reverse have a main-axis of vertical / y-axis and a cross-axis of horizontal / x-axis
 */
+
+.section1 img {
+    width: 100%;
+}
+.section1 .img-contain {
+    flex: 1;
+}
+.section1 p {
+    flex: 3;
+}
+
