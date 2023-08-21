@@ -101,3 +101,7 @@ body {
 #reproduction p {
     padding-top: 10px;
 }
+
+#description img {
+    max-width: 150px;
+}
