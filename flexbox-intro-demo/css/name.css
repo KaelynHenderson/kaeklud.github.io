@@ -22,8 +22,9 @@ img, p {
 }
 .section1 .img-contain {
     flex: 1;
+    width: 100%;
 }
 .section1 p {
-    flex: 3;
+    flex: 5;
 }
 
