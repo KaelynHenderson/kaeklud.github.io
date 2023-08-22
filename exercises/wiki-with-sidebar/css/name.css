@@ -4,10 +4,17 @@
 }
 body {
     font-family: sans-serif;
+    overflow: initial;
 }
 
 #section1 {
     display: flex;
+}
+
+#sidebar1 {
+    align-self: flex-start;
+    position: sticky;
+    top: 25px;
 }
 
 .sidebar {
