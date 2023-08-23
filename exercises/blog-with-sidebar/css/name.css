@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: sans-serif
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 250px 450px 1fr ;
+    grid-template-areas: ". sidebar content .";
+}
+
+#sidebar {
+    background-color: lavender;
+    padding: 14px;
+    grid-area: sidebar;
+}
+
+#main-content {
+    background-color: beige;
+    padding: 14px;
+    grid-area: content;
+}
