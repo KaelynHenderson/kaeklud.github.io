@@ -9,7 +9,7 @@ body {
 #grid-layout {
     display: grid;
     grid-template-columns: 1fr 250px 450px 1fr ;
-    grid-template-areas: ". sidebar content .";
+    grid-template-areas: ".sidebar content.";
 }
 
 img {
@@ -25,6 +25,9 @@ img {
     background-color: #888098;
     padding: 14px;
     grid-area: sidebar;
+    align-self: flex-start;
+    position: sticky;
+    top: 25px;
 }
 #sidebar h2 {
     background-color: #344055;
@@ -62,4 +65,14 @@ img {
 }
 #main-content1 p {
     padding: 10px
+}
+h2 {
+    text-align: center;
+    padding-top: 30px
+}
+#header2 {
+    border: 2px solid #344055;
+    padding-top: 15px;
+    background-color: #CFB3CD;
+    color: #344055;
 }
