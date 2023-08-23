@@ -12,14 +12,53 @@ body {
     grid-template-areas: ". sidebar content .";
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 20px
+}
+/* sidebar stuff */
 #sidebar {
-    background-color: lavender;
+    background-color: #888098;
     padding: 14px;
     grid-area: sidebar;
 }
+#sidebar h2 {
+    background-color: #344055;
+    padding: 5px;
+    color: #f8effe;
+    font-size: 20px;
+    text-align: center;
+}
+#sidebar ul {
+    background-color: #CFB3CD;
+    border: 2px solid #f8effe;
+    margin: 0 0 36px;
+    list-style-type: none;
+    padding: 12px;
+}
+#sidebar li {
+    padding: 8px 0px;
+    border-bottom: 2px solid #344055;
+    text-align: center;
+}
+#sidebar a {
+    text-decoration: none;
+    color: #344055;
+}
 
+/* main content */
 #main-content {
-    background-color: beige;
+    background-color: #f8effe;
     padding: 14px;
     grid-area: content;
+}
+#main-content h1 {
+    text-align: center;
+    padding-bottom: 15px
+}
+#main-content p {
+    padding: 10px
 }
