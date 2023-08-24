@@ -14,8 +14,20 @@ body {
 }
 
 #header {
-    background-color: lightskyblue;
     grid-area: header;
+    padding: 0px 36px;
+}
+#header a {
+    text-decoration: none;
+}
+#header #me {
+    color: #111111
+}
+#header #tube {
+    color: white;
+    background-color: red;
+    padding: 4px;
+    border-radius: 12px;
 }
 
 #sidebar {
