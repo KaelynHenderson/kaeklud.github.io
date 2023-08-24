@@ -20,12 +20,12 @@ body {
 #header a {
     text-decoration: none;
 }
-#header #me {
+#header #kae {
     color: #111111
 }
 #header #tube {
     color: white;
-    background-color: red;
+    background-color: rgb(4, 121, 255);
     padding: 4px;
     border-radius: 12px;
 }
@@ -45,6 +45,11 @@ body {
     color: #111111;
     padding: 12px;
     display: block;
+}
+#sidebar ul a:hover {
+    background-color: #b2cfec;
+    border-radius: 12px;
+    color: white;
 }
 
 #main {
