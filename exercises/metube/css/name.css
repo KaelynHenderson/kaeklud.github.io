@@ -53,6 +53,7 @@ body {
 }
 
 #main {
-    background-color: lightgoldenrodyellow;
     grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
 }
