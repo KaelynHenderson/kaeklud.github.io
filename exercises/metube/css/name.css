@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#grid-layout {
+    display: grid;
+}
+
+#header {
+    background-color: lightskyblue;
+}
+
+#sidebar {
+    background-color: lightcyan;
+}
+
+#main {
+    background-color: lightgoldenrodyellow;
+}
