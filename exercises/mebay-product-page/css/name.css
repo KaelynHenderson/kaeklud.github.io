@@ -15,17 +15,75 @@ body {
 }
 
 #column-1 {
-    background-color: lightblue;
+    background-color: white;
 }
 #column-1 img {
-    max-width: 250px
+    max-width: 100%;
+    padding: 25px
 }
 
 #column-2 {
-    background-color: darkblue;
+    background-color: white;
+    color: black;
+}
+#condition {
+    padding: 5px;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black
+}
+#purchase {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+}
+#price-info .p {
+    font-size: 20px;
+}
+#price-info a {
+    font-size: 15px;
+}
+.button-1 {
+    background-color: #21529B;
     color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+.button-2 {
+    background-color: #5296C5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
 }
 
+
 #column-3 {
-    background-color: aquamarine;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#shop {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#seller-info {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#offer {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+}
+#button-3 {
+    background-color: #5296C5;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    border-radius: 15px;
 }
