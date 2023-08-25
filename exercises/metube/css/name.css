@@ -47,7 +47,7 @@ body {
     display: block;
 }
 #sidebar ul a:hover {
-    background-color: #b2cfec;
+    background-color: lightskyblue;
     border-radius: 12px;
     color: white;
 }
@@ -56,4 +56,14 @@ body {
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
+}
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+.metube-item .thumbnail-placeholder {
+    aspect-ratio: 16/9;
+    background: radial-gradient(at top left, blue, lightskyblue);
+    border-radius: 8px;
 }
