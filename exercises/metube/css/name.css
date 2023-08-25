@@ -21,11 +21,12 @@ body {
     text-decoration: none;
 }
 #header #kae {
-    color: #111111
+    color: #111111;
+    padding-right: 5px;
 }
 #header #tube {
     color: white;
-    background-color: rgb(4, 121, 255);
+    background:radial-gradient(at top left, blue, lightskyblue);
     padding: 4px;
     border-radius: 12px;
 }
@@ -63,7 +64,24 @@ body {
     margin-bottom: 24px;
 }
 .metube-item .thumbnail-placeholder {
-    aspect-ratio: 16/9;
-    background: radial-gradient(at top left, blue, lightskyblue);
-    border-radius: 8px;
+    
+    border-radius: 30px;
+}
+.metube-item h4 {
+    margin: 8px;
+}
+.metube-item h4 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.metube-item h4 a:hover {
+    color: blue;
+}
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+.metube-item .video-channel {
+    margin-bottom: 4px;
 }
