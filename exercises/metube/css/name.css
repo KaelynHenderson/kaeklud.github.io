@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(233, 246, 255);
 }
 #grid-layout {
     display: grid;
@@ -77,6 +78,7 @@ body {
 }
 .metube-item h4 a:hover {
     color: blue;
+    font-size: 17px;
 }
 .metube-item .video-details {
     margin: 8px;
