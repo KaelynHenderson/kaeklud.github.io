@@ -1,0 +1,91 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+#pokemon-card-1 {
+    border: 20px solid rgb(255, 225, 0);
+    background: radial-gradient(at bottom right, rgb(15, 210, 54), rgb(32, 135, 77), rgb(15, 213, 54));
+    border-radius: 15px;
+    margin: 20px;
+    max-width: 360px;
+    padding-left: 20px;
+}
+#pokemon-card-2 {
+    border: 20px solid rgb(255, 225, 0);
+    background: radial-gradient(at bottom right, rgb(15, 210, 54), rgb(32, 135, 77), rgb(15, 213, 54));
+    border-radius: 15px;
+    margin: 20px;
+    width: 360px;
+    padding-left: 20px;
+}
+#pokemon-card-3 {
+    border: 20px solid rgb(255, 225, 0);
+    background: radial-gradient(at bottom right, rgb(255, 213, 6), rgb(246, 61, 10), rgb(255, 213, 6));
+    border-radius: 15px;
+    margin: 20px;
+    width: 360px;
+    padding-left: 20px;
+}
+#pokemon-card-4 {
+    border: 20px solid rgb(255, 225, 0);
+    background: radial-gradient(at bottom right, rgb(1, 252, 248), rgb(54, 197, 233), rgb(1, 252, 248));
+    border-radius: 15px;
+    margin: 20px;
+    width: 360px;
+    padding-left: 20px;
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+}
+.pokemon-header .name {
+    font-size: 25px;
+}
+.pokemon-header .health {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+img {
+    border: 6px solid rgb(205, 181, 2);
+    max-width: 275px;
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    background: linear-gradient(-90deg, rgb(201, 181, 2), rgb(246, 221, 0), rgb(201, 181, 2));
+    max-width: 275px;
+    font-size: 80%;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.attack {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 24px;
+    border-bottom: 2px solid black;
+}
+.attack .energy, .power {
+    padding-top: 24px;
+}
+.bold {
+    font-weight: bold;
+}
+
+.data {
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid rgb(205, 181, 2);
+    margin-right: 24px;
+}
