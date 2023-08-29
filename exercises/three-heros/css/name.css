@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/img1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-1 h2 {
+    font-size: 15vw;
+    margin-bottom: 100vw;
+    margin-left: 50vw;
+    padding-top: 90px;
+}
+#hero-1 h4 {
+    font-size: 5vw;
+    margin-bottom: 55vw;
+    margin-left: 56vw;
+    position: absolute;
+    text-align: center;
+}
+#hero-1 a {
+    font-size: 4vw;
+    margin-bottom: 25vw;
+    margin-left: 65vw;
+    position: absolute;
+    text-align: center;
+    background-color: #383026;
+    color: #E3E7E8;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+#hero-2 {
+    background-image: url(../images/img3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-2 h2 {
+    font-size: 5vw;
+    margin-left: 10vw;
+    margin-bottom: 80vw;
+}
+#hero-2 h4 {
+    font-size: 3vw;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 60vw;
+    margin-left: 18vw;
+}
+#hero-2 a {
+    font-size: 1.5vw;
+    position: absolute;
+    text-align: center;
+    background-color: #0A0E10;
+    color: #D1C4B2;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 45vw;
+    margin-left: 26vw;
+}
+
+#hero-3 {
+    background-image: url(../images/img2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-3 h1 {
+    color: rgb(255, 255, 255);
+    padding-left: 35%;
+    font-size: 10vw;
+    padding-bottom: 40vh;
+    text-shadow: 6px 6px #0A0E10;
+}
+#hero-3 h4 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 5vw;
+    padding-left: 30%;
+    text-shadow: 2px 2px white;
+}
+#hero-3 a {
+    position: absolute;
+    padding-top: 15%;
+    padding-left: 47%;
+    font-size: 3vw;
+    color: white;
+    text-decoration: none;
+}
