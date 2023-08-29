@@ -51,7 +51,7 @@ img {
     color: #ff4000;
 }
 
-
+/* three card implementation */
 #card-selection {
     background-color: #ff4000;
     padding: 48px;
@@ -75,4 +75,46 @@ img {
 .card p {
     font-size: 24px;
     margin: 24px 0px 0px;
+}
+
+/* comparison layout */
+#second-main {
+    background: radial-gradient(at top right, #DAF7DC, #DAF7DC, #F7DBA7);
+    padding: 48px;
+}
+
+.comp-container {
+    text-align: center;
+    margin: 60px;
+}
+.comp-container h3 {
+    font-size: 36px;
+}
+
+.comp-layout-1 {
+    display: flex;
+    justify-content: center;
+}
+.comp-layout-1 .comp-column {
+    background-color: #0D6594;
+    color: #FFFFFF;
+    padding: 24px;
+}
+.comp-layout-1 .comp-column h4, .comp-layout-1 .comp-column p {
+    padding: 24px 48px;
+}
+.comp-layout-1 .comp-column h4 {
+    font-size: 24px;
+    background-color: #7591C1;
+    margin: 0px;
+}
+.comp-layout-1 .comp-column p {
+    font-size: 18px;
+    margin: 0px;
+    border-top: 3px solid #2F92BA;
+}
+.comp-layout-1 .comp-column .label {
+    display: block;
+    font-weight: bolder;
+    padding-bottom: 12px;
 }
