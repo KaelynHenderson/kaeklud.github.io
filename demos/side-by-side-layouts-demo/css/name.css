@@ -118,3 +118,37 @@ img {
     font-weight: bolder;
     padding-bottom: 12px;
 }
+
+/* comp layout 2 */
+.comp-layout-2 {
+    background-color: #e5f77d;
+    padding: 36px;
+}
+.comp-row {
+    display: flex;
+    border-bottom: 3px solid #0D6594;
+    color: #14213d;
+}
+.comp-row.comp-header {
+    font-weight: bolder;
+}
+.comp-row div {
+    flex: 1;
+    padding: 24px;
+    font-size: 24px;
+}
+
+/* comp layout 3 */
+.comp-layout-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #68bfee;
+}
+.comp-layout-3 div {
+    padding: 24px;
+    font-size: 24px;
+    border-bottom: 3px solid black;
+}
+.comp-layout-3 .label {
+    font-weight: bolder;
+}
