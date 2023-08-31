@@ -35,3 +35,24 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.hor-mas-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    border: 10px solid #333;
+}
+.hor-mas-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
+.vert-mas-gallery {
+    columns: 3 auto;
+    border: 10px solid #333;
+}
+.vert-mas-gallery img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
