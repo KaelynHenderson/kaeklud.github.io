@@ -43,4 +43,8 @@ p {
     font-size: 10px;
     padding-bottom: 15px;
 }
-
+.title {
+    background-color: #534D41;
+    color: #EBEBEB;
+    padding: 5px;
+}
