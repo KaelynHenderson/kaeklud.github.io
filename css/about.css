@@ -48,12 +48,13 @@ body {
     color: white;
     padding: 10px;
     border-radius: 30px;
+    margin: auto;
 }
 .header-text {
-    flex: 2;
+    flex: 3;
+    background-color: #EBEBEB;
 }
 .header-text p {
-    margin: 0px;
     text-align: center;
     font-size: 15px;
 }
@@ -68,6 +69,7 @@ body {
 ul {
     font-size: 0;
     text-align: left;
+    padding-bottom: 10px;
 }
 li {
     font-size: 15px;
