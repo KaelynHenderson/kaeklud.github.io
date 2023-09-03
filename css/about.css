@@ -53,6 +53,7 @@ body {
 .header-text {
     flex: 3;
     background-color: #EBEBEB;
+    color: black;
 }
 .header-text p {
     text-align: center;
