@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
     font-family: sans-serif;
     background-color: white;
 }
@@ -23,9 +22,47 @@ body {
 }
 
 /* about page */
-.paragraph-1, img {
-    display: inline-block;
-    width: 30%;
+#main-layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
+#main-layout img {
+    width: 30%;
+    flex: 1;
+}
+#header h3 {
+    font-size: 30px;
+    text-align: center;
+    background-color: #717568;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.header-text {
+    flex: 2;
+}
+.header-text p {
+    margin: 0px;
+    text-align: left;
+    font-size: 15px;
+}
+.header-text h4 {
+    font-size: 20px;
+    text-align: center;
+}
+ul {
+    font-size: 0;
+    text-align: left;
+}
+li {
+    font-size: 15px;
+}
+
+
+
 
 
