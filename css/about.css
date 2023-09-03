@@ -32,6 +32,8 @@ body {
 }
 #main-layout img {
     width: 30%;
+    border-radius: 40px 40px 45px 45px;
+    object-fit: cover;
     flex: 1;
 }
 #header h3 {
@@ -47,12 +49,16 @@ body {
 }
 .header-text p {
     margin: 0px;
-    text-align: left;
+    text-align: center;
     font-size: 15px;
 }
 .header-text h4 {
     font-size: 20px;
     text-align: center;
+    background-color: #BACBA9;
+    color: black;
+    padding: 3px;
+    border-radius: 10px;
 }
 ul {
     font-size: 0;
