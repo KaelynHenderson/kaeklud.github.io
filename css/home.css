@@ -14,6 +14,13 @@ body {
     background-color: #E1F4CB;
     color: black;
 }
+#main-components a:hover{
+    box-shadow: 5px 3px 3px #333;
+    background-color: #717568;
+    color: #EBEBEB;
+    border-radius: 20px;
+    padding: 10px;
+}
 #main-components a {
     text-decoration: none;
     color: black;
@@ -21,3 +28,9 @@ body {
 }
 
 /* index/home page */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
