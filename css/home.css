@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Poppins:wght@100;200&display=swap');
-
 * {
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
     font-family: sans-serif;
     background-color: white;
 }
+
 #main-components {
     text-align: center;
     margin: 0px auto;
@@ -16,16 +14,8 @@ body {
     background-color: #E1F4CB;
     color: black;
 }
-#main-components a{
+#main-components a {
     text-decoration: none;
     color: black;
     padding: 10px;
 }
-
-/* about page */
-.paragraph-1, img {
-    display: inline-block;
-    width: 30%;
-}
-
-
