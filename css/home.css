@@ -32,6 +32,9 @@ body {
     margin: 48px auto;
     text-align: center;
 }
+#layout p{
+    font-size: 15px;
+}
 #main-layout {
     background-image: url(../images/person11.jpg);
     height: 150vh;
