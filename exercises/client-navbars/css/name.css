@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    top: 0px;
+    position: sticky;
+}
+.nav {
+    background: linear-gradient(to bottom, rgb(195, 218, 195), #627b62);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.nav #logo {
+    margin-right: auto;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav p {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
