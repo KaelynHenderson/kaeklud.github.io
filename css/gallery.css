@@ -30,18 +30,17 @@ body {
 /* gallery page */
 #layout {
     max-width: 800px;
-    min-width: 300px;
     margin: 48px auto;
     text-align: center;
 }
 .mixed-layout {
-    columns: 3 10vw;
-    gap: 14px;
+    columns: 3 9vw;
+    gap: 10px;
     padding: 24px;
     background-color: #EBEBEB;
 }
 .mixed-layout img {
-    width: 90%;
+    width: 80%;
     margin-bottom: 0px;
 }
 h3 {
