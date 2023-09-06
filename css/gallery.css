@@ -34,13 +34,13 @@ body {
     text-align: center;
 }
 .mixed-layout {
-    columns: 3 9vw;
+    columns: 3 8.5vw;
     gap: 10px;
     padding: 24px;
     background-color: #EBEBEB;
 }
 .mixed-layout img {
-    width: 80%;
+    width: 90%;
     margin-bottom: 0px;
 }
 h3 {
