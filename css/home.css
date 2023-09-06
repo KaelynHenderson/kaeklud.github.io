@@ -5,7 +5,6 @@ body {
     font-family: sans-serif;
     background-color: white;
 }
-
 #main-components {
     text-align: center;
     margin: 0px auto;
@@ -26,6 +25,7 @@ body {
     color: black;
     padding: 10px;
 }
+
 
 /* index/home page */
 #layout {
@@ -51,4 +51,51 @@ h3 {
     color: white;
     padding: 10px;
     border-radius: 30px;
+}
+
+
+/* cards */
+.column {
+    min-width: 20px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#card-section {
+    background-color: transparent;
+    color: black;
+    padding: 24px;
+}
+.contain {
+    display: flex;
+    justify-content: space-evenly;
+}
+#cards {
+    flex: 1;
+    padding: 24px;
+    margin: 24px;
+    text-align: center;
+    background-color: #717568;
+    border-radius: 30px
+}
+#cards h2 {
+    font-size: 25px;
+    margin: 0px;
+    color: white;
+    border: 5px solid #E1F4CB;
+    padding: 15px;
+    border-radius: 30px;
+}
+#cards p {
+    font-size: 20px;
+    margin: 24px 0px 0px;
+    padding: 10px;
+    color: #E1F4CB;
+}
+#cards a {
+    text-decoration: none;
+}
+#cards h2:hover {
+    background-color: #E1F4CB;
+    border: 5px solid transparent;
+    color: #717568
 }
