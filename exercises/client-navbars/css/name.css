@@ -25,6 +25,9 @@ body {
     color: white;
     padding: 10px;
 }
+.nav a:hover {
+    text-shadow: 3px 3px 6px black;
+}
 .nav p {
     text-decoration: none;
     color: white;
