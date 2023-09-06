@@ -19,27 +19,25 @@ body {
 }
 
 
-
-
 #header {
     top: 0px;
     position: sticky;
 }
 .nav {
-    background-color: #F75F1C;
-    box-shadow: inset 10px 10px 30px #64260b;
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 50px;
+    font-size: 20px;
 }
 #logo {
     font-size: 25px;
-    color: #ff8a31
+    color: #fe5f1b
 }
 #link a {
     text-decoration: none;
-    color: white;
+    color: #fe5f1b;
 }
 #link a:hover {
     color: black;
@@ -55,5 +53,25 @@ body {
 .button:hover {
     background-color: white;
     color: #360b05;
+}
+
+
+#bottom-header {
+    top: 0px;
+    position: sticky;
+}
+#bottom-header {
+    margin: 0px auto;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background: #913500;
+}
+#bottom-header a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
 }
 
