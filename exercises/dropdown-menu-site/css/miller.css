@@ -57,3 +57,29 @@ body {
     background: white;
     border: 1px solid #7b6953;
 }
+
+.center-column,h2 {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+    background-color: #fb6793;
+    padding: 24px;
+}
+.center-column,img {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.center-column,p {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+    background-color: #03aac2;
+    padding: 14px;
+}
