@@ -83,6 +83,30 @@ li {
     font-size: 15px;
 }
 
+/* media query */
+@media screen and (max-width: 768px) {
+    #main-components {
+        position: absolute;
+    }
+    #header {
+        position: absolute;
+        font-size: 15px;
+    }
+    #header-text h4 {
+        position: absolute;
+        display: flex;
+        font-size: 10px;
+    }
+    #header-text {
+        position: absolute;
+        display: flex;
+    }
+    #main-layout img {
+        position: absolute;
+        display: flex;
+    }
+}
+
 
 
 

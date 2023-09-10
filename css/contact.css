@@ -28,3 +28,10 @@ body {
 }
 
 /* contact page */
+
+/* media query */
+@media screen and (max-width: 768px) {
+    #main-components {
+        position: absolute;
+    }
+}
