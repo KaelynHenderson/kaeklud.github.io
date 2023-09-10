@@ -99,22 +99,3 @@ h3 {
     border: 5px solid transparent;
     color: #717568
 }
-
-/* media query */
-@media screen and (max-width: 768px) {
-    #main-components {
-        position: absolute;
-    }
-    #layout {
-        position: absolute;
-    }
-    #card-section {
-        position: absolute;
-    }
-    #card-section p {
-        font-size: 10px;
-    }
-    #card-section h2 {
-        font-size: 12.5px;
-    }
-}
