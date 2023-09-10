@@ -111,4 +111,7 @@ h3 {
     #card-section {
         position: absolute;
     }
+    #card-section p {
+        font-size: 10px;
+    }
 }
