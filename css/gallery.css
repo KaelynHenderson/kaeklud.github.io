@@ -64,3 +64,14 @@ p {
     padding: 3px;
     border-radius: 10px;
 }
+
+/* media query */
+@media screen and (max-width: 768px) {
+    #main-components {
+        position: absolute;
+    }
+    .mixed-layout {
+        position: absolute;
+        display: flex;
+    }
+}
