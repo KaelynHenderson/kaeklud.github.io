@@ -462,11 +462,62 @@ body {
         flex-wrap: wrap;
     }
     #nav a {
-        flex: 1;
+        flex: 2;
     }
 }
 
 /* mobile breakpoint */
 @media only screen and (max-width: 800px) {
-
+    #grid-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "header"
+            "header"
+            "navbar"
+            "navbar"
+            "navbar"
+            "banner"
+            "banner"
+            "banner"
+            "card-1"
+            "card-2"
+            "card-3"
+            "aside"
+            "blog"
+            "blog"
+            "footer"
+            "footer"
+            "footer"
+            ". bottom ."
+            ". bottom ."
+            ". bottom .";
+    }
+    #shield-image {
+        display: none;
+    }
+    #search-bar {
+        display: none;
+    }
+    #search-button {
+        display: none;
+    }
+    #header {
+        display: flex;
+        flex-direction: column;
+    }
+    #header h1 {
+        font-size: 18px;
+    }
+    #nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #nav a {
+        flex: 1;
+    }
+    #card-3 {
+        display: none;
+    }
 }
