@@ -28,3 +28,10 @@ body {
 }
 
 /* contact page */
+
+@media only screen and (max-width: 480px) {
+    #main-components a {
+        display: flex;
+        flex-direction: column;
+    }
+}

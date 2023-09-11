@@ -99,3 +99,10 @@ h3 {
     border: 5px solid transparent;
     color: #717568
 }
+
+@media only screen and (max-width: 480px) {
+    #main-components a {
+        display: flex;
+        flex-direction: column;
+    }
+}
