@@ -50,13 +50,12 @@ body {
     right: 0;
 }
 .dropdown-container:last-child .dropdown-menu {
-    left: 10px;
-    margin: auto;
+    left: 0;
 }
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
-    margin: auto;
+    left: 0;
 }
 .dropdown-menu a {
     background-color: #466060;
@@ -182,7 +181,5 @@ body {
     }
     .hero-content {
         text-align: center;
-        padding-top: 20vh;
-        padding-left: 300px;
     }
 }
