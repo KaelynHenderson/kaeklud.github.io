@@ -46,7 +46,7 @@ body {
     transition: 
         opacity 0.25s,
         visibility 0.25s;
-    z-index: 10;
+    z-index: 50;
     right: 0;
 }
 .dropdown-container:last-child .dropdown-menu {
@@ -175,11 +175,13 @@ body {
 
 
 /* media queries */
-@media only screen and (min-width: 200px) {
+@media only screen and (min-width: 200px) and (max-width: 480px) {
     #hero {
         height: 50vh;
     }
     .hero-content {
         text-align: center;
+        padding-top: 10vh;
+        padding-left: 450px;
     }
 }
