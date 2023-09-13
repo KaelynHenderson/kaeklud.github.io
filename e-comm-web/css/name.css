@@ -78,8 +78,10 @@ body {
 }
 .hero-content {
     text-align: center;
-    padding-top: 10vh;
-    padding-left: 450px;
+    background-color: #466060;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
 }
 .hero-content a {
     background-color: #57886C;
@@ -178,10 +180,5 @@ body {
 @media only screen and (min-width: 200px) and (max-width: 480px) {
     #hero {
         height: 50vh;
-    }
-    .hero-content {
-        text-align: center;
-        padding-top: 10vh;
-        padding-left: 450px;
     }
 }
