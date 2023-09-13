@@ -121,7 +121,22 @@ body {
 
 /* footer */
 #foot-layout {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    background-color: #f8c7cc;
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+}
+#footer h3 {
+    font-size: 25px;
+}
+#footer a {
+    display: block;
+    text-decoration: none;
+    color: #57886C;
+    padding: 15px;
 }
 
 
