@@ -12,7 +12,6 @@ body {
     position: sticky;
     top: 0px;
 }
-
 #navbar {
     background-color: #57886C;
     display: flex;
@@ -37,6 +36,34 @@ body {
     background-color: #f8c7cc;
     padding: 10px;
     border-radius: 20px;
+}
+.dropdown-contain {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+.dropdown-contain:last-child .dropdown-menu {
+    right: 0px;
+}
+.dropdown-contain:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a {
+    background-color: #03aac2;
+    width: 100%;
+    border: 1px solid transparent;
+}
+#navbar .dropdown-menu a:hover {
+    background: white;
+    border: 1px solid #7b6953;
 }
 
 
@@ -149,33 +176,6 @@ body {
 
 /* media queries */
 @media only screen and (min-width: 200px) {
-    #header {
-        padding: 5px;
-    }
-    #navbar {
-        background-color: #57886C;
-        display: flex;
-        padding: 12px;
-        justify-content: space-between;
-        align-items: center;
-        overflow: hidden;
-    }
-    #navbar .logo {
-        margin-right: auto;
-        font-size: 15px;
-        color: #f8c7cc;
-    }
-    #navbar a {
-        color: white;
-        text-decoration: none;
-        padding: 5px;
-    }
-    #navbar a:hover {
-        color: #0e0f19;
-        background-color: #f8c7cc;
-        padding: 5px;
-        border-radius: 10px;
-    }
     #hero {
         height: 50vh;
     }
