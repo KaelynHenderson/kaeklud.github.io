@@ -148,33 +148,33 @@ body {
 
 
 /* media queries */
-@media only screen and (max-width: 480) {
+@media only screen and (min-width: 200px) {
     #header {
-    padding: 5px;
+        padding: 5px;
     }
     #navbar {
-    background-color: #57886C;
-    display: flex;
-    padding: 12px;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
+        background-color: #57886C;
+        display: flex;
+        padding: 12px;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
     }
     #navbar .logo {
-    margin-right: auto;
-    font-size: 15px;
-    color: #f8c7cc;
+        margin-right: auto;
+        font-size: 15px;
+        color: #f8c7cc;
     }
     #navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
     }
     #navbar a:hover {
-    color: #0e0f19;
-    background-color: #f8c7cc;
-    padding: 5px;
-    border-radius: 10px;
+        color: #0e0f19;
+        background-color: #f8c7cc;
+        padding: 5px;
+        border-radius: 10px;
     }
     #hero {
         height: 50vh;
