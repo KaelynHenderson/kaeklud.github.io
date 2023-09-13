@@ -27,7 +27,7 @@ body {
     color: #f8c7cc;
 }
 #navbar a {
-    color: #0e0f19;
+    color: white;
     text-decoration: none;
     padding: 10px;
     float: left;
@@ -137,13 +137,20 @@ body {
     text-decoration: none;
     color: #57886C;
     padding: 15px;
+    border: 2px solid transparent;
+}
+#footer a:hover {
+    color: white;
+    border: 2px solid transparent;
+    background-color: #57886C;
+    margin: 0px;
 }
 
 
 /* media queries */
 @media only screen and (max-width: 480) {
     #header {
-    position: sticky;
+    padding: 5px;
     }
     #navbar {
     background-color: #57886C;
@@ -159,7 +166,7 @@ body {
     color: #f8c7cc;
     }
     #navbar a {
-    color: #0e0f19;
+    color: white;
     text-decoration: none;
     padding: 5px;
     }
