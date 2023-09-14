@@ -19,6 +19,7 @@ body {
     padding: 24px;
     font-size: 20px;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 #navbar #logo {
     margin-right: auto;
@@ -29,7 +30,7 @@ body {
 
 /* content */
 #paragraph {
-    padding: 24px;
+    padding: 48px;
 }
 #paragraph h2 {
     font-family: 'Lobster', cursive;
@@ -61,4 +62,29 @@ body {
 }
 .text {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* footer */
+#footer {
+    background-color: #040707;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+#footer img {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 48px auto;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.links a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
