@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400&family=REM:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;}
+body {
+    margin: 0px;
+}
+
+/* navbar */
+#navbar {
+    background-color: #040707;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 20px;
+}
+#navbar #logo {
+    margin-right: auto;
+}
+#navbar #logo img {
+    width: 150px;
+}
+
+/* content */
+#paragraph {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#paragraph h2 {
+    font-family: 'Lobster', cursive;
+    color: #E3A479;
+    font-size: 35px;
+}
+#paragraph p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+/* gallery */
