@@ -18,6 +18,7 @@ body {
     color: white;
     padding: 24px;
     font-size: 20px;
+    margin: auto;
 }
 #navbar #logo {
     margin-right: auto;
@@ -28,19 +29,36 @@ body {
 
 /* content */
 #paragraph {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 24px;
 }
 #paragraph h2 {
     font-family: 'Lobster', cursive;
     color: #E3A479;
     font-size: 35px;
+    text-align: left;
 }
 #paragraph p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 
 /* gallery */
+#gallery-container {
+    max-width: 800px;
+    margin: 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery {
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.text {
+    text-align: center;
+}
