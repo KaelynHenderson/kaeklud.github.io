@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400&family=REM:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;}
+body {
+    margin: 0px;
+}
+
+/* navbar */
+#navbar {
+    background-color: #040707;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 20px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar #logo {
+    margin-right: auto;
+}
+#navbar #logo img {
+    width: 150px;
+}
+
+/* Our Technology */
+#title {
+    padding-left: 48px;
+    font-family: 'Lobster', cursive;
+    color: #E3A479;
+    font-size: 35px;
+    text-align: left;
+}
+#text-image {
+    padding: 48px;
+    display: flex;
+}
+#text-image p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 50px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-top: 0px;
+}
+#text-image img {
+    width: 25%;
+    object-fit: cover;
+}
+#paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 48px;
+    margin-left: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+#science-hero {
+    background-image: url(../images/sci3.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+#image-text {
+    padding: 48px;
+    display: flex;
+}
+#image-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+#image-text img {
+    width: 30%;
+    object-fit: cover;
+}
+img {
+    width: 40%;
+    margin-left: 148px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+/* footer */
+#footer {
+    background-color: #040707;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+#footer img {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 48px auto;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.links a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
