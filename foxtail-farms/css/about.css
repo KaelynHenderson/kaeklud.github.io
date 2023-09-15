@@ -27,3 +27,18 @@ body {
 #navbar #logo img {
     width: 150px;
 }
+
+/* about us header */
+#about-us {
+    padding: 48px;
+    background-color: #040707;
+    color: white;
+}
+#about-us h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: white;
+    background-color: #E3A479;
+    padding: 15px;
+    display: table;
+}
