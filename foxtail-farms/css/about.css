@@ -69,7 +69,7 @@ body {
 
 
 /* SPACER */
-#spacer1 p{
+#spacer1 p {
     text-align: center;
     font-size: 25px;
 }
@@ -82,7 +82,6 @@ body {
 /* cards */
 .single-col {
     max-width: 900px;
-    margin: auto;
 }
 #three-cards {
     background-color: white;
@@ -93,6 +92,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin: 0px auto;
 }
 .card {
     flex: 1;
@@ -124,4 +124,62 @@ body {
     background-color: #040707;
     border-radius: 30px;
     text-decoration: none;
+}
+.card a:hover {
+    background-color: #E3A479;
+}
+
+/* text image layout */
+#fox-tale {
+    display: flex;
+    padding-top: 136px;
+    padding-left: 60px;
+}
+.text-image h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 30px
+}
+.text-image p {
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 36px;
+    padding-bottom: 36px;
+}
+.big-image img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+.text-image a {
+    background-color: #E3A479;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+.text-image a:hover {
+    background-color: #040707;
+}
+/* footer */
+#footer {
+    background-color: #040707;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+#footer img {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 48px auto;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.links a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
