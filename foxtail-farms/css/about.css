@@ -67,10 +67,22 @@ body {
     background-color: #040707
 }
 
+
+/* SPACER */
+#spacer1 p{
+    text-align: center;
+    font-size: 25px;
+}
+#spacer p {
+    padding-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px
+}
 /* cards */
 .single-col {
     max-width: 900px;
-    margin: 0px auto;
+    margin: auto;
 }
 #three-cards {
     background-color: white;
@@ -91,15 +103,25 @@ body {
     border-radius: 40px;
 }
 .card h3 {
-    font-size: 36px;
+    font-size: 26px;
     margin: 0px;
+    padding-bottom: 26px;
 }
 .card p {
     font-size: 24px;
     margin: 24px 0px 0px;
+    padding-bottom: 26px;
 }
 .card img {
     width: 150px;
     height: 150px;
     object-position: center center;
+}
+.card a {
+    padding: 10px 60px;
+    font-size: 26px;
+    color: white;
+    background-color: #040707;
+    border-radius: 30px;
+    text-decoration: none;
 }
