@@ -42,3 +42,27 @@ body {
     padding: 15px;
     display: table;
 }
+#about-us p{
+    padding-right: 45px;
+    padding-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+#about-us span a {
+    background-color: white;
+    color: #040707;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+#about-us span a:hover {
+    background-color: #E3A479;
+    color: white;
+}
+#big-logo img {
+    width: 400px;
+}
+#header {
+    display: flex;
+    background-color: #040707
+}
