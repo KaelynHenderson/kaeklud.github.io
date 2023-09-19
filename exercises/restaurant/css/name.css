@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navbar */
+#navbar {
+    background-color: #ffdda6;
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+#navbar #logo {
+    margin-right: auto;
+}
+#navbar #logo img {
+    width: 150px;
+}
+#navbar #button img {
+    width: 50px;
+}
