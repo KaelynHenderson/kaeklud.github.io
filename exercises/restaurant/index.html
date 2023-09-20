@@ -5,22 +5,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Spaghetti Reworked</title>
         <link rel="stylesheet" href="css/name.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <div id="navbar">
-            <a href="#" id="logo">
+       <div id="navbar">
+            <a id="logo" href="#">
                 <img src="../restaurant/images/transparentlogo.png" alt="logo">
             </a>
-            <a href="#">Menu</a>
-            <a href="#">Rewards</a>
-            <a href="#">Reservations</a>
-            <a href="#">About Us</a>
-            <a href="#" id="button">
-                <img src="../restaurant/images/shoppingcart.png" alt="shopping cart">
-            </a>
-            <a href="#" id="button">
-                <img src="../restaurant/images/location.png" alt="location">
-            </a>
-        </div>
+            <div class="dropdown">
+                <a href="#">Menu <i class="fa-solid fa-chevron-down"></i> </a>
+                <div class="menu">
+                    <a href="#">Full Menu</a>
+                    <a href="#">Main Courses</a>
+                    <a href="#">Sides & Soups</a>
+                    <a href="#">Drinks</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#">Reservations <i class="fa-solid fa-chevron-down"></i> </a>
+                <div class="menu">
+                    <a href="#">Book</a>
+                    <a href="#">Check-In</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#">Rewards <i class="fa-solid fa-chevron-down"></i> </a>
+                <div class="menu">
+                    <a href="#">Join</a>
+                    <a href="#">Info</a>
+                </div>
+            </div>
+            <div id="buttons">
+                <a id="button" href="#">
+                    <img src="../restaurant/images/shoppingcart.png" alt="cart">
+                </a>
+                <a id="button" href="#">
+                    <img src="../restaurant/images/togo.png" alt="to go">
+                </a>
+                <a id="button" href="#">
+                    <img src="../restaurant/images/profile.png" alt="profile">
+                </a>
+            </div>
+       </div>
     </body>
 </html>
