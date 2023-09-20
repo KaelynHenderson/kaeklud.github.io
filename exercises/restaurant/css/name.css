@@ -16,14 +16,13 @@ body {
     color: #ED4727;
     padding: 24px;
     font-size: 25px;
-    font-weight: bold;
 }
 #navbar a:hover {
     text-decoration: underline;
 }
 #navbar #logo img {
     margin-right: auto;
-    width: 150px;
+    width: 100px;
 }
 .dropdown {
     position: relative;
@@ -43,7 +42,7 @@ body {
 }
 .menu a {
     background-color: #FFEFDE;
-    border: 0.5px solid black;
+    border-bottom: 1px solid black;
     width: 100%;
     min-width: 200px;
 }
@@ -56,5 +55,4 @@ body {
 }
 #button img {
     width: 50px;
-    float: right;
 }
