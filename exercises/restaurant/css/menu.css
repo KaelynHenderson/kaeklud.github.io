@@ -58,6 +58,9 @@ body {
 }
 
 /* gallery */
+h1 {
+    text-align: center;
+}
 #gallery-layout {
     max-width: 800px;
     margin: 48px auto;
