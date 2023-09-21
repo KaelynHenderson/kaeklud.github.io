@@ -67,9 +67,15 @@ h1 {
     text-align: center;
 }
 .gall img {
-    width: 25%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     padding: 10px;
-    
+}
+.gall img:hover {
+    box-shadow:  3px 3px 5px black;
+    width: 205px;
+    height: 205px;
 }
 /* footer */
 #footer {
