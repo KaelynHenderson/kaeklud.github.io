@@ -56,10 +56,44 @@ body {
 #button img {
     width: 50px;
 }
-
-
-
-
+/* rewards */
+.sing-col {
+    min-width: 100px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#card-section {
+    background-color: #FDE7C9;
+    color: black;
+    padding: 48px;
+}
+.card-contain {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    background-color: #FAA954;
+    padding: 36px;
+    padding-top: 20px;
+    text-align: center;
+    margin: 36px;
+    border-radius: 60px;
+}
+.card h2 {
+    font-size: 36px;
+    color: #ED4727;
+    margin: 0px;
+}
+.card span {
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: inset 3px 2px 10px #333;
+}
+/* footer */
 #footer {
     background-color: #FFEFDE;
     padding: 12px;
