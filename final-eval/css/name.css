@@ -107,3 +107,52 @@ body {
     color: #043c5c;
     font-family: 'Tinos', serif;
 }
+@media only screen and (max-width: 600px) {
+    #top-text {
+        display: flex;
+    }
+    #top-text h4 {
+        font-size: 7px;
+    }
+    #top-text h1 {
+        font-size: 15px;
+    }
+    #top-text h2 {
+        font-size: 10px;
+    }
+    #vs {
+        display: flex;
+    }
+    #left img {
+        width: 10%;
+        border: 1px solid black;
+    }
+    #right img {
+        width: 10%;
+        border: 1px solid black;
+    }
+    #bottom-text {
+        display: flex;
+    }
+    #bottom-text h1 {
+        font-size: 15px;
+    }
+    #bottom-text h2 {
+        font-size: 10px;
+    }
+    #bottom-text h5 {
+        font-size: 5px;
+    }
+    #buttons {
+        display: flex;
+    }
+    .left {
+        font-size: 10px;
+    }
+    .right {
+        font-size: 10px;
+    }
+    #last h5 {
+        font-size: 5px;
+    }
+}
