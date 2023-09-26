@@ -40,14 +40,23 @@ body {
     width: 150px;
     border: 3px solid black;
 }
+#left h4 {
+    color: #6e91a4;
+    font-size: 20px;
+}
 #right img {
     width: 150px;
     border: 3px solid black;
+}
+#right h4 {
+    color: #6e91a4;
+    font-size: 20px;
 }
 #vs p {
     text-align: center;
     margin-top: 100px;
     font-size: 30px;
+    font-family: 'Black Ops One', cursive;
 }
 #bottom-text {
     text-align: center;
@@ -57,17 +66,33 @@ body {
     font-family: 'Black Ops One', cursive;
     font-size: 30px;
 }
+#bottom-text h2 {
+    font-family: 'Tinos', serif;
+}
+#bottom-text h5 {
+    font-family: 'Tinos', serif;
+}
 #buttons {
     display: flex;
     justify-content: space-around;
 }
 .left {
-    border: 2px solid red;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
+    background-color: #6e91a4;
+    color: white;
+    text-decoration: none;
+    font-size: 20px
 }
 .right {
-    border: 2px solid red;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
+    background-color: #6e91a4;
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+}
+#last {
+    text-align: center;
+    color: #043c5c;
 }
