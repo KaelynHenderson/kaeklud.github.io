@@ -10,3 +10,22 @@ body {
     margin: 0px auto;
     background-color: gray;
 }
+#top-text {
+    text-align: center;
+    color: white;
+}
+#vs {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+#left img {
+    width: 150px;
+    border: 3px solid black;
+}
+#right img {
+    width: 150px;
+    border: 3px solid black;
+}
