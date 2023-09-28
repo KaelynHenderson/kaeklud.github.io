@@ -142,4 +142,7 @@ h3 {
     .contain {
         display: block;
     }
+    .foot-nav {
+        font-size: 10px;
+    }
 }

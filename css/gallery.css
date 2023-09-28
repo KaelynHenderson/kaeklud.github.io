@@ -85,10 +85,13 @@ p {
 
 @media only screen and (max-width: 1000px) and (min-width: 100px) {
     #layout {
-        max-width: 80%;
+        max-width: 70%;
         text-align: center;
     }
     .mixed-layout {
-        columns: 2 8.5vw;
+        columns: 1 5.5vw;
+    }
+    .foot-nav {
+        font-size: 10px;
     }
 }

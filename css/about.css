@@ -80,6 +80,15 @@ ul {
 li {
     font-size: 15px;
 }
+#awards {
+    margin: 48px auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#awards img {
+    width: 20vw;
+}
 
 /* Footer */
 #footer {
@@ -96,4 +105,11 @@ li {
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
+}
+
+/* media query */
+@media only screen and (max-width: 1000px) and (min-width: 100px) {
+    .foot-nav {
+        font-size: 10px;
+    }
 }

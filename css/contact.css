@@ -110,4 +110,7 @@ body {
     #left-content h3 {
         visibility: hidden;
     }
+    .foot-nav {
+        font-size: 10px;
+    }
 }
