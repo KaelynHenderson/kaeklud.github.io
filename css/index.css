@@ -57,7 +57,22 @@ h3 {
 #layout a:hover {
     background-color: #561D25;
 }
-
+.cta-button {
+    margin: 0px auto;
+    text-align: center;
+}
+.cta-button a{
+    background-color: #561D25;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+.cta-button a:hover {
+    background-color: #6a5749;
+    transition: 0.5s;
+}
 
 /* cards */
 .column {
@@ -97,7 +112,8 @@ h3 {
 #cards h2:hover {
     background: #ECDD7B;
     border: 5px solid transparent;
-    color: #6a5749
+    color: #6a5749;
+    transition: 0.3s;
 }
 
 /* Footer */
