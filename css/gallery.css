@@ -14,7 +14,7 @@ body {
     background-color: #E1F4CB;
     color: black;
 }
-#main-components a{
+#main-components a {
     text-decoration: none;
     color: black;
     padding: 10px;
@@ -29,7 +29,7 @@ body {
 
 /* gallery page */
 #layout {
-    max-width: 800px;
+    max-width: 900px;
     margin: 48px auto;
     text-align: center;
 }
@@ -65,9 +65,12 @@ p {
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 480px) {
-    #main-components a {
-        display: flex;
-        flex-direction: column;
+@media only screen and (max-width: 1000px) and (min-width: 100px) {
+    #layout {
+        max-width: 60%;
+        text-align: center;
+    }
+    .mixed-layout {
+        columns: 2 8.5vw;
     }
 }
