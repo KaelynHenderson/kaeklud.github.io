@@ -36,15 +36,8 @@ body {
 #layout p{
     font-size: 15px;
 }
-#main-layout {
-    background-image: url(../images/person11.jpg);
-    height: 150vh;
-    background-size: cover;
-    background-position: top center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+#layout img {
+    width: 30%;
 }
 h3 {
     font-size: 30px;
