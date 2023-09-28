@@ -67,3 +67,14 @@ body {
     background-color: #9e9e9e;
     color: #333;
 }
+
+/* media query */
+@media only screen and (max-width: 1000px) and (min-width: 100px) {
+    #layout {
+        display: block;
+        margin: 48px auto;
+    }
+    #left-content h3 {
+        visibility: hidden;
+    }
+}

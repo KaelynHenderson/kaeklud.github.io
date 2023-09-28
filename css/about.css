@@ -82,10 +82,3 @@ ul {
 li {
     font-size: 15px;
 }
-
-@media only screen and (max-width: 480px) {
-    #main-components a {
-        display: flex;
-        flex-direction: column;
-    }
-}
