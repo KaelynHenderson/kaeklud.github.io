@@ -60,11 +60,6 @@ h3 {
     max-width: 1200px;
     margin: 0px auto;
 }
-#card-section {
-    background-color: transparent;
-    color: black;
-    padding: 24px;
-}
 .contain {
     display: flex;
     justify-content: space-evenly;
@@ -100,9 +95,13 @@ h3 {
     color: #717568
 }
 
-@media only screen and (max-width: 480px) {
-    #main-components a {
-        display: flex;
-        flex-direction: column;
+@media only screen and (max-width: 1000px) and (min-width: 100px) {
+    .column {
+        min-width: 20px;
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    .contain {
+        display: block;
     }
 }
