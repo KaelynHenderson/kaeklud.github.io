@@ -52,6 +52,17 @@ h3 {
     padding: 10px;
     border-radius: 30px;
 }
+#layout a {
+    background-color: #EBEBEB;
+    padding: 24px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+#layout a:hover {
+    background-color: #E1F4CB;
+}
 
 
 /* cards */
