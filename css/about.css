@@ -28,66 +28,40 @@ body {
 }
 
 /* about page */
-#main-layout {
+.column {
+    min-width: 20px;
     max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+    margin: 0px auto;
 }
-#main-layout img {
-    width: 30%;
-    border-radius: 40px 40px 45px 45px;
-    object-fit: cover;
+#cards {
     flex: 1;
-}
-#header {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
-}
-#header h3 {
-    font-size: 30px;
+    padding: 24px;
+    margin: 24px;
     text-align: center;
     background-color: #CE8147;
-    color: white;
-    padding: 10px;
+    border-radius: 30px
+}
+#cards h2 {
+    font-size: 25px;
+    margin: 20px;
+    color: #6a5749;
+    border: 5px solid #6a5749;
+    padding: 15px;
     border-radius: 30px;
-    margin: auto;
+    background-color: #ECDD7B;
 }
-.header-text {
-    flex: 3;
-    background-color: #EBEBEB;
-    color: black;
-}
-.header-text p {
-    text-align: center;
-    font-size: 15px;
-}
-.header-text h4 {
+#cards p {
     font-size: 20px;
-    text-align: center;
-    background-color: #2D4739;
-    color: white;
-    padding: 3px;
+    margin: 24px 0px 0px;
+    padding: 10px;
+    color: #E1F4CB;
 }
-ul {
-    font-size: 0;
+#cards img {
+    width: 20vw
+}
+#cards ul {
+    color: #E1F4CB;
     text-align: left;
-    padding-bottom: 10px;
-}
-li {
-    font-size: 15px;
-}
-#awards {
-    margin: 48px auto;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-#awards img {
-    width: 20vw;
 }
 
 /* Footer */
@@ -109,6 +83,17 @@ li {
 
 /* media query */
 @media only screen and (max-width: 1000px) and (min-width: 100px) {
+    .foot-nav {
+        font-size: 10px;
+    }
+    .column {
+        min-width: 20px;
+        max-width: 800px;
+        margin: 0px auto;
+    }
+    .contain {
+        display: block;
+    }
     .foot-nav {
         font-size: 10px;
     }
