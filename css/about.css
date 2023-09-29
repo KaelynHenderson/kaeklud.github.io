@@ -38,30 +38,31 @@ body {
     padding: 24px;
     margin: 24px;
     text-align: center;
-    background-color: #CE8147;
+    background-color: #EBEBEB;
     border-radius: 30px
 }
 #cards h2 {
     font-size: 25px;
     margin: 20px;
-    color: #6a5749;
-    border: 5px solid #6a5749;
+    color: white;
     padding: 15px;
     border-radius: 30px;
-    background-color: #ECDD7B;
+    background-color: #CE8147;
 }
 #cards p {
     font-size: 20px;
     margin: 24px 0px 0px;
     padding: 10px;
-    color: #E1F4CB;
+    color: #1b1b1b;
 }
 #cards img {
-    width: 20vw
+    width: 23vw;
+    border: 3px solid #333;
 }
 #cards ul {
-    color: #E1F4CB;
+    color: #1b1b1b;
     text-align: left;
+    font-size: 20px
 }
 #cards .self {
     border-radius: 100px;
