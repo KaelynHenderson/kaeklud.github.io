@@ -29,33 +29,27 @@ body {
 
 
 /* index/home page */
-#layout {
-    margin: 48px auto;
-    text-align: center;
+#hero {
+    background-image: url(../images/person11.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#layout p{
-    font-size: 15px;
-}
-#layout img {
-    width: 30%;
-}
-h3 {
-    font-size: 30px;
-    background-color: #717568;
-    color: white;
-    padding: 10px;
-    border-radius: 30px;
-}
-#layout a {
-    background-color: #561D25;
+#hero a {
+    font-size: 7vw;
+    text-decoration: none;
+    background-color: #ECDD7B;
+    color: black;
     padding: 24px;
     border-radius: 30px;
-    color: black;
-    text-decoration: none;
-    border: 2px solid black;
+    opacity: 50%;
 }
-#layout a:hover {
-    background-color: #561D25;
+#hero a:hover {
+    opacity: 100%;
+    color: #561D25;
 }
 .cta-button {
     margin: 0px auto;
