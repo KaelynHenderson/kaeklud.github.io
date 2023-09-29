@@ -63,6 +63,15 @@ body {
     color: #E1F4CB;
     text-align: left;
 }
+#cards .self {
+    border-radius: 100px;
+}
+#cards h3 {
+    background-color: #6a5749;
+    border-radius: 30px;
+    padding: 8px;
+    color: #EBEBEB;
+}
 
 /* Footer */
 #footer {
