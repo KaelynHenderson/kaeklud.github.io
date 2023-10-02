@@ -137,6 +137,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
     }
     #form-layout {
         margin: 48px auto;
-        min-width: 200px;
+        max-width: 200px;
+        padding-bottom: 20px;
     }
 }
