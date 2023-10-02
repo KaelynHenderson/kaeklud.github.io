@@ -137,6 +137,6 @@ input:not(:focus):not(:placeholder-shown):invalid {
     }
     #form-layout {
         margin: 48px auto;
-        width: 450px;
+        min-width: 200px;
     }
 }
