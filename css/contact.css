@@ -55,6 +55,13 @@ body {
     text-decoration: none;
     color: white;
 }
+#footer a:hover {
+    box-shadow: 5px 3px 3px #333;
+    background-color: #CE8147;
+    color: #EBEBEB;
+    border-radius: 20px;
+    transition: 0.5s;
+}
 .foot-nav {
     margin: 20px auto;
     display: flex;
