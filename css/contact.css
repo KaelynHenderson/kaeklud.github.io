@@ -62,7 +62,9 @@ body {
 
 /* form */
 #form-layout {
-    width: 500px;margin: 0px auto;
+    width: 500px;
+    margin: 0px auto;
+    margin-top: 20px;
 }
     
 header {
@@ -124,6 +126,7 @@ input:not(:focus):not(:placeholder-shown):invalid {
     #layout {
         display: block;
         margin: 48px auto;
+        width: 200px;
     }
     #left-content h3 {
         visibility: hidden;
