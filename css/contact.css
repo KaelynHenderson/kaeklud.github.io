@@ -60,6 +60,65 @@ body {
     justify-content: space-between;
 }
 
+/* form */
+#form-layout {
+    width: 500px;margin: 0px auto;
+}
+    
+header {
+    text-align: center;padding: 50px;
+}
+    
+header p {
+    font-size: 14px;
+}
+    
+form {
+    background-color: #EBEBEB;
+    padding: 36px;
+    border: 2px solid #CCCCCC;
+    border-radius: 2px;
+}
+    
+form div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+    
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 16px;
+}
+    
+textarea {
+    font-family: sans-serif;
+}
+    
+    
+input[type=submit] {
+    width: auto;
+    background-color: #CE8147;
+    color: white;
+    border: 0;border-radius: 3px;
+    min-width: 75px;
+}
+input[type=submit]:hover {
+    background-color: #ECDD7B;
+    color: black;
+    transition: 0.3s;
+}   
+    
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
+
 /* media query */
 @media only screen and (max-width: 1000px) and (min-width: 100px) {
     #layout {

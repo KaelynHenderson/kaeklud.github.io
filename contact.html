@@ -31,15 +31,46 @@
             </div>
         </div>
 
-        <div id="footer">
-            <div class="foot-nav">
-                <span>&copy; Kaelyn Kluding 2023</span>
-                <a href="index.html">Home</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="contact.html">Contact</a>
-                <a href="about.html">About</a>
-                <a href="https://dev-kaelyn-kluding-sandbox.pantheonsite.io/" target="_blank">Blog</a>
-            </div>
+        <div id="form-layout">
+            <main>
+                
+                <form 
+                    method="POST" 
+                    action="https://getform.io/f/b084d5b2-2178-4310-b527-2326559791cd"
+                >
+                    <div>
+                        <label for="name_id">Name</label>
+                        <input 
+                            type="text" 
+                            id="name_id" 
+                            name="name" 
+                            required 
+                            minlength="2"
+                            placeholder="E.g. John Smith"
+                        >
+                    </div>
+                    <div>
+                        <label for="email_id">Email</label>
+                        <input 
+                            type="email" 
+                            id="email_id" 
+                            name="email"
+                            required
+                            placeholder="E.g. jane.doe@gmail.com"
+                        >
+                    </div>
+                    <div>
+                        <label for="message_id">Message</label>
+                        <textarea 
+                            id="message_id" 
+                            name="message"
+                            placeholder="Let's create..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </main>
         </div>
     </body>
 </html>
